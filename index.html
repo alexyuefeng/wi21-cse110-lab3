@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>Yuefeng Huang's Lab2</title>
+<title>Yuefeng Huang's Lab3</title>
 <link rel="icon" href="cat.ico">
+<link rel="stylesheet" href="style.css">
 <meta name="description" content="Second lab">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@200&display=swap');
+	p.outFront{
+		font-family: 'Fraunces', serif;
+	}
+	</style>
+
 </head>
 <body>
   <audio controls>
   <source src="1.mp3" type="audio/mpeg">
-  Your browser sux.
   </audio>
 		<header>
 		<h1>Yuefeng Huang's</h1>
-		<p>4th year <span style="color:blue">CS</span> student</p>
-		<code>Hello World!</code>
+		<p class="outFront">A 4th year CS student who is strugling to enroll classes</p>
+		<code id="colorful";>Hello World!</code>
 		</header>
 	
 	<main>	
@@ -22,15 +29,14 @@
 			<!--actually no css so just a plain div-->
 			<div>
 			<h2>About me:</h2>
-			
 			</div>
 			<hr>
 			
 			<h3>habits:</h3>
 
 			<ul>
-				<li>sccoer</li>
-				<li>League of Legends</li>
+				<li>sccoer;</li>
+				<li>League of Legends;</li>
 				<li>Sleep</li>
 			</ul>
 			<h3>fav drinks</h3>
@@ -51,13 +57,14 @@
 			<td>A</td>
 		</tr>
 		</table>
-		
-		
+		<br>
+		<p class="dotted">BORDER</p>
+		<br>
 		
 		<hr>
 		
-			<h4>More about me:</h4>
-			<p> I like <br> cars: </p>
+			<h4  style="color:maroon;">More about me:</h4>
+			<p class="widthThing"> I like cars: </p>
 			<p><b>A</b> <i>random</i> <strong>car</strong> <em>to</em> present</p>
 			<figure>
 				<img src="honda_typeR_000.jpg" alt="Type R pic" style="width:500px">
@@ -87,7 +94,23 @@
 	</main>
 	
 	<hr>
+	<ul class="flex-container">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+	</ul>
 	
+	<br>
+	<div class="grid">
+	<div>fircol</div>
+	<div>secondcol</div>
+	</div>
+	
+	
+	<br>
 	<pre>
 	These are some
 	random lines
@@ -95,13 +118,16 @@
 	the use of pre
 	</pre>
 	
+	<iframe src="https://www.honda.com/" title="some web doesn't refuse to connect"></iframe>
+	<hr>
 	
 	<footer>
 	<p>author: Yuefeng Huang</p>
 	<nav>
-	<a href="https://www.linkedin.com/in/yuefeng-huang/">Linkedin</a> |
+	<a href="https://www.linkedin.com/in/yuefeng-huang/" target="_l">Linkedin</a> |
 	<a href="https://www.linkedin.com/in/yuefeng-huang/">PlaceHolder</a>
 	</nav>
 	</footer>
-	<iframe src="https://www.honda.com/" title="some web doesn't refuse to connect"></iframe>
+	
+
 </body>

@@ -1,0 +1,121 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+  text-decoration:underline;
+}
+
+p:hover {
+	background-color: rgb(106, 90, 205);
+}
+
+p:active {
+  color: #0000FF;
+}
+
+#colorful{
+		background-color: rgba(255, 99, 71, 0.4);
+	}
+	
+div *{
+		background-color:#ffffff;
+		font-size: 140%;
+	}
+p {
+		background-color: hsl(0, 0%, 100%);
+		line-height:2em;
+		font-size: 4ch;
+	}
+a[target]{
+		background-color:yellow;
+	}
+h2{
+	   color: maroon;
+	   margin: 20px;
+	   width: 10%;
+	}
+h3{
+	  position: relative;
+		color:maroon;
+		padding: 40px;
+	}
+	
+h4{
+
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+	
+/*does multiple selector work together for <p>?*/
+footer p{
+	background-color:lightblue;
+	height:100px;
+	width:50%;
+}
+
+p.dotted {
+	position: static;
+	border-style:dotted;
+	border-color:gray;
+	border-width:5px;
+	border-radius:10px;
+}
+
+li{
+	display: inline;
+}
+/*hidden*/
+th{
+	display: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: blue;
+  padding: 2px;
+  width: 100px;
+  height: 75px;
+  margin-top: 5px;
+  line-height: 75px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.grid > div {
+  background: #EDE7F6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+body {
+  margin: 2rem;
+  font: 12px system-ui;
+}
+
+.widthThing {
+  padding: 20px;
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
